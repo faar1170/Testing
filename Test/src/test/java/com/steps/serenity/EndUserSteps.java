@@ -19,6 +19,7 @@ public class EndUserSteps extends ScenarioSteps {
 
     @Step
     public void starts_search() {
+    	System.out.println("test dictionary page");
         dictionaryPage.lookup_terms();
     }
 
