@@ -31,6 +31,7 @@ public class DictionaryPage extends PageObject {
     }
 
     public List<String> getDefinitions() {
+    	System.out.println("test dictionary page");
         WebElementFacade definitionList = find(By.tagName("ol"));
         List<WebElement> results = definitionList.findElements(By.tagName("li"));
         return convert(results, toStrings());
