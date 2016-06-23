@@ -19,7 +19,7 @@ public class DictionaryPage extends PageObject {
     @FindBy(name="search")
     private WebElementFacade searchTerms;
 
-    @FindBy(name="go")
+    @FindBy(name="go5")
     private WebElementFacade lookupButton;
 
     public void enter_keywords(String keyword) {
