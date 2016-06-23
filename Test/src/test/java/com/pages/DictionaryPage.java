@@ -16,7 +16,7 @@ import static ch.lambdaj.Lambda.convert;
 @DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary:Main_Page")
 public class DictionaryPage extends PageObject {
 
-    @FindBy(name="search")
+    @FindBy(name="search22222222")
     private WebElementFacade searchTerms;
 
     @FindBy(name="go")
